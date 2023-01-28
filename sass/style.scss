@@ -4,7 +4,7 @@ $color-dark: black;
 $color-main: #fed136;
 $color-sub: #919191;
 $color-portfolio: #f7f7f7;
-/*fonty dodać*/
+$font-title: Dancing Script, cursive;
 /* Global */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -18,6 +18,8 @@ body {
 .logo {
     color: $color-main;
     margin-top: 20px;
+    font-family: $font-title;
+    font-size: 24px;
 }
 header {
     height: 500px;
