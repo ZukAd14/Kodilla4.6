@@ -2,6 +2,8 @@
 $color-light: #fff;
 $color-dark: black;
 $color-main: #fed136;
+$color-sub: #919191;
+/*fonty dodać*/
 /* Global */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -76,4 +78,39 @@ nav {
     
     border: none;
 }
+/* Services */
 
+.section-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 35px;
+        .title {
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .subtitle {
+            margin-top: 0;
+            font-style: italic;
+            color: $color-sub;
+        }
+}
+.card {
+    text-align: center;
+    margin-bottom: 5px;
+    h4 {
+        font-weight: 800;
+        margin-bottom: 5px;
+    }
+    p {
+        color: $color-sub;
+        margin-top: 0;
+    }
+    i {
+    color: $color-main;
+    border-radius: 50%;
+    border: 2px solid $color-main;
+    padding: 7px;
+    font-size: 30px;
+    }
+}
